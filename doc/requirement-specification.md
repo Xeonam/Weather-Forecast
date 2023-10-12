@@ -104,3 +104,53 @@ forecasts to their preferences, and gain in-depth insights into weather
 phenomena. With this advanced system, our goal is to provide weather 
 forecasts in a modern, interactive, and customizable manner, 
 eliminating the need for passive consumption and synchronized viewing.
+
+## System License
+
+The project is licensed under the MIT License. This license grants 
+users the freedom to use, modify, and distribute the software under 
+certain conditions. Please take note of the following key points 
+regarding the MIT License:
+
+### MIT License
+
+The MIT License is a permissive open-source license that allows users to:
+
+- Use the software for any purpose, whether for personal, academic, or 
+commercial use.
+- Modify the software and create derivative works.
+- Distribute the software, either in its original or modified form.
+- Use the software in proprietary projects.
+
+Under the MIT License, it is essential to include the original license 
+notice and disclaimer in all copies or substantial portions of the 
+software. This ensures that the original authors receive credit for 
+their work, and it provides users with a clear understanding of the 
+terms and conditions.#
+
+### Usage and Redistribution
+
+Users and contributors to the Weather Forecast project are free to use, 
+adapt, and redistribute the software in compliance with the MIT 
+License. This freedom promotes collaboration, innovation, and a vibrant 
+open-source community.
+
+### Contributions
+
+If you decide to contribute to the Weather Forecast project, you are 
+encouraged to adhere to the MIT License and ensure that your 
+contributions align with its terms. This keeps the project's licensing 
+consistent and promotes transparency.
+
+### Licensing Considerations
+
+When using or contributing to the Weather Forecast project, it's 
+crucial to understand and respect the MIT License's terms. This license 
+is selected to encourage widespread adoption and collaboration, 
+fostering a supportive and inclusive environment for the project and 
+its community.
+
+By participating in this project, you acknowledge your acceptance of 
+the MIT License and agree to adhere to its terms and conditions. The 
+license facilitates open collaboration and ensures that all 
+contributors are credited appropriately for their work.

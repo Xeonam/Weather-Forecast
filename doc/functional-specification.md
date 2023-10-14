@@ -135,3 +135,48 @@ The basic functions of the program are as follows:
     beyond the immediate forecast.
 
 
+## Use cases
+
+The software operates without the functionality of user profiles,
+which means it lacks user authentication and user roles. When
+a user initiates the program, they are automatically identified
+as a "user" In this capacity, they enjoy unrestricted access to
+all the features that the software offers. 
+
+However, it's essential to note that this software doesn't
+incorporate any administrative privileges. Users are unable to
+modify or customize the software's properties, and they have no 
+control over any settings. The absence of user profiles and
+administrative roles simplifies the user's interaction with the
+program, offering a seamless and straightforward gaming experience.
+
+This kind of approach can be beneficial for a weather forecasting
+application for the following reasons:
+
+- Simplicity and User-Friendliness:
+The absence of authentication and user profiles means that users
+can start using the app immediately without the need for
+registration or login. This is an extremely user-friendly approach
+that minimizes initial barriers and provides quick access to
+weather information.
+
+- Rapid Information Access:
+Users can quickly and easily access weather forecasts without the
+need to go through registration or login processes. This is
+particularly useful when someone is seeking urgent weather information.
+
+- Reduced Administration:
+This approach simplifies the work for developers as there is no need
+to manage user profiles or permissions. It can save time and resources
+during the development process.
+
+- Smooth and Effortless User Experience:
+Applications with no authentication or user profile management systems
+tend to be faster and more straightforward to use, resulting in a
+seamless user experience.
+
+Applications with such a simple and streamlined design are ideal for
+those looking for fast and easily accessible weather information and
+don't require individual profiles or user permissions management. This
+approach can be particularly advantageous in situations where speed and
+user-friendliness are of paramount importance.

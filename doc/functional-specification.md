@@ -1,3 +1,23 @@
+## Overview
+
+We are developing a web-based weather forecasting
+application that aims to provide accurate and location-specific
+weather information. This application's primary goal is to
+offer users a comprehensive set of meteorological insights,
+including current weather conditions and long-term forecasts,
+as well as essential data like temperature fluctuations and
+precipitation patterns.
+
+By furnishing users with a rich and dynamic suite of weather
+details, our app endeavors to serve as an indispensable tool
+for decision-making and activity planning. We aspire to
+enhance the accessibility and usability of weather information,
+enabling users to make more informed choices related to their
+daily activities and long-term plans. This application seeks
+to empower users with the knowledge they need to stay prepared
+and adapt to changing weather conditions, ultimately enhancing
+their overall quality of life.
+
 ## Current State
 
 A carefully crafted weather prediction software has a primary objective:
@@ -25,3 +45,4 @@ interpret, and utilize weather information. By providing
 users with this rich and dynamic suite of weather details, 
 our app endeavors to serve as an indispensable tool for 
 decision-making and activity planning.
+

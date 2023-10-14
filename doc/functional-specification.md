@@ -95,3 +95,43 @@ The basic functions of the program are as follows:
     weather conditions. Whether you're planning a picnic, a commute,
     or any other activity, this feature is your go-to
     source for immediate weather insights.
+
+- Long-Term forecast:
+    
+    The Long-Term Forecast section of our weather forecasting
+    application is dedicated to providing users with insights
+    into the weather conditions over an extended period. This
+    feature is designed to help users plan for the days, weeks,
+    and even months ahead, offering valuable information for
+    long-range decision-making.
+
+    Key Features:
+
+    - Extended Forecast: Our application provides extended
+    weather forecasts that cover a range of days, allowing users
+    to anticipate conditions for the week or even the entire month.
+
+    - Seasonal Trends: Gain insights into seasonal weather trends
+    and fluctuations, which can be essential for activities such
+    as agriculture, event planning, or travel.
+
+    - Climate Data: Access historical climate data and trends for
+    your location, aiding in long-term planning and understanding
+    local climate patterns.
+
+    - Custom Alerts: Set customized alerts for specific weather
+    conditions, ensuring that you're informed when particular
+    conditions align with your preferences or requirements.
+
+    - Geographical Coverage: The Long-Term Forecast section
+    offers an extensive geographical range, enabling users
+    to plan for travel or events in various locations.
+
+    The Long-Term Forecast section empowers users with the ability
+    to make informed, strategic decisions for the future.
+    Whether you're planning a vacation, managing a farming operation,
+    or simply looking to understand long-term climate trends,
+    this feature is your gateway to weather information that extends
+    beyond the immediate forecast.
+
+

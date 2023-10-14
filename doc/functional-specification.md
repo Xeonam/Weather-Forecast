@@ -46,3 +46,52 @@ users with this rich and dynamic suite of weather details,
 our app endeavors to serve as an indispensable tool for 
 decision-making and activity planning.
 
+## Functional specification of requirement list
+
+The basic functions of the program are as follows:
+
+- Homepage:
+
+    - This is where we welcome the user.
+    - On this page, user can choose between various functions of the software.
+    - User receive information about the site.
+
+- Short-term forecast:
+
+    The Short-Term Forecast section of our weather forecasting
+    application is designed to provide users with up-to-the-minute
+    weather predictions for the immediate future. This feature
+    offers a glimpse into what you can expect in the next few hours,
+    making it a valuable tool for planning your day and making
+    informed decisions.
+
+    Key Features:
+
+    - Current Conditions: Get real-time information about
+    the current weather conditions in your location,
+    including temperature, humidity, wind speed, and more.
+
+    - Hourly Forecasts: Our application provides hour-by-hour
+    forecasts, allowing you to anticipate changes in weather
+    throughout the day. This is particularly useful for
+    planning outdoor activities or knowing when to expect
+    rain or sunshine.
+
+    - Precipitation Alerts: Stay prepared with precipitation
+    alerts that notify you when rain, snow, or other forms
+    of precipitation are expected in your area.
+
+    - Severe Weather Warnings: Be aware of severe weather
+    conditions with our warning system. Receive alerts for
+    thunderstorms, heavy winds, and other potential hazards.
+
+    - Local Radar: Our radar feature offers a real-time view
+    of weather patterns in your vicinity, enabling you
+    to track rain, snow, or other weather events as they approach.
+
+    The Short-Term Forecast section ensures that you are equipped
+    with the most accurate and current weather information,
+    empowering you to make timely decisions and stay ahead of changing
+    weather conditions. Whether you're planning a picnic, a commute,
+    or any other activity, this feature is your go-to
+    source for immediate weather insights.

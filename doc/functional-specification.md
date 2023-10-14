@@ -180,3 +180,62 @@ those looking for fast and easily accessible weather information and
 don't require individual profiles or user permissions management. This
 approach can be particularly advantageous in situations where speed and
 user-friendliness are of paramount importance.
+
+## Standard scenario
+
+In the following, we describe the general procedure for running the software:
+
+1. Homepage:
+
+    - Upon launching the application, users are greeted with a visually
+    appealing homepage. The page opens with a striking background
+    image related to the weather or the user's location, creating an
+    engaging and informative atmosphere.
+
+    - The main section of the homepage provides a summary of the current
+    weather conditions at the user's location. This includes real-time
+    temperature, weather descriptions (e.g., clear skies, rain, snow),
+    humidity levels, wind speed, and direction.
+
+    - Users can also view additional information, such as sunrise and sunset
+    times, UV index, and air pressure, offering a holistic view of the
+    current conditions.
+
+2. Short-Term Forecast:
+
+    - When users opt for short-term forecasting, they are taken to a
+    dedicated page. This section offers a detailed hour-by-hour
+    breakdown of the weather for the upcoming 24-48 hours.
+
+    - The short-term forecast includes graphical representations of
+    temperature variations, precipitation probabilities, and wind speed
+    trends. Users can quickly grasp how the weather will evolve
+    throughout the day.
+
+    - Interactive elements, such as swiping between hours or tapping
+    on specific time slots, allow users to access additional information
+    like "feels-like" temperature, chance of rain, and wind gusts.
+
+    - Users can make informed decisions for their immediate plans,
+    whether it's a morning jog, a picnic, or a commute.
+
+3. Long-Term Forecast:
+
+    - Choosing the long-term forecast section transports users to a
+    page dedicated to extended weather predictions. This section
+    typically covers the next 7 to 14 days, helping users plan for
+    the week or beyond.
+
+    - The long-term forecast provides a concise overview of expected
+    conditions, including average high and low temperatures,
+    precipitation trends, and any notable weather events.
+
+    - Users can explore graphical representations, such as temperature
+    graphs and precipitation charts, to visualize how the weather will
+    evolve over time.
+
+    - There may also be a brief summary of key weather patterns to
+    watch out for in the coming week.
+
+    - Users find this section valuable for planning trips, outdoor
+    events, or long-term work commitments.

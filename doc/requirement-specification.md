@@ -71,6 +71,19 @@ secure and efficient. It continuously works to achieve these goals by
 giving customers access to the most cutting-edge, relevant, and 
 customized meteorological insights.
 
+## Functional requirements
+
+Below you can see the functions of the application:
+
+- Users are able to enter a location or allow the application to access their GPS data for automatic location detection.
+- The application provides accurate weather forecasts for the selected location.
+- The application displays real-time weather data for the chosen location.
+- Users are able to search for weather information in specific cities, regions, or countries, and view weather data for multiple locations.
+- The web application is responsive and work seamlessly on various devices, including desktops, tablets, and mobile phones.
+- The application works consistently across major web browsers, such as Chrome, Firefox, Safari, and Edge.
+- The application implement strong data privacy and security measures to protect user information and maintain compliance with relevant data protection regulations.
+- The application's performance is optimized to ensure fast loading times and smooth user experience, especially for users with slower internet connections.
+
 ## Applied business processes
 
 Before introducing our weather forecast program, let's delve into the 

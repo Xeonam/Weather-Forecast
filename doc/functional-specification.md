@@ -318,6 +318,50 @@ In the following, we describe the general procedure for running the software:
     - Users find this section valuable for planning trips, outdoor
     events, or long-term work commitments.
 
+## Menu plans
+
+Imagine an application that not only provides you with the weather information you need,
+but does so in a way that leaves you in awe from the very first click. Welcome to our Weather Forecast application,
+where innovative menu plans and an exceptional landing page redefine the way you experience weather updates.
+
+### Effortless Navigation with an Intuitive Menu:
+
+We've engineered the menu of our application to be as dynamic as the weather itself,
+offering an experience that's both user-friendly and highly functional. Our menu plans are designed to 
+cater to the diverse needs of our users, whether you're a casual weather checker or a weather enthusiast.
+
+### A Landing Page That Inspires
+
+Now, let's talk about our exceptional landing page. It's not just a starting point; 
+it's an introduction to a world of possibilities. As you open the application, you're greeted by a vibrant,
+dynamic canvas that reflects the current weather conditions. Watch as the sun rises or sets,
+the clouds glide by, and the raindrops fall - all in real-time, right on your screen.
+It's a visual masterpiece that connects you with the natural world, reminding you that the weather isn't just data; it's a living, breathing entity.
+
+But it's not just about aesthetics. Our landing page is highly informative, 
+offering a snapshot of the current weather, including temperature, humidity, wind speed, 
+and atmospheric pressure. A quick glance, and you're armed with the essential information you need to plan your day.
+
+The landing page also provides direct access to your saved locations, 
+ensuring you're only a tap away from the weather information that matters most to you. 
+And if there's a severe weather event on the horizon, our alert system will ensure you're alerted promptly, prioritizing your safety.
+
+In conclusion, our innovative menu plans and exceptional landing page combine to create an extraordinary weather application,
+that transcends the ordinary. With a user-centric approach and a visually stunning introduction to the world of weather,
+your experience with our application will be nothing short of extraordinary. Welcome to a new era of weather forecasting.
+
+### What can I see on the page?
+
+**Explore Weather**
+
+Dive deep into the world of meteorology with this section, offering you a comprehensive view of current weather conditions,
+forecasts, and interactive maps. It's where your weather journey begins.
+
+**Locations**
+
+Explore weather conditions anywhere in the world with just a few taps. 
+Whether you're planning a trip or curious about a far-off city,this menu option takes you there effortlessly.
+
 ## Dictionary of terms
 
 Weather Forecasting Application:

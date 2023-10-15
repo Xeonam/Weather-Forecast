@@ -282,3 +282,95 @@ In the following, we describe the general procedure for running the software:
 
     - Users find this section valuable for planning trips, outdoor
     events, or long-term work commitments.
+
+## Dictionary of terms
+
+Weather Forecasting Application:
+Definition: A software or mobile application designed to provide users with accurate and location-specific weather information, including current conditions and forecasts.
+
+Meteorological Insights:
+Definition: Detailed information related to weather conditions, including factors like temperature, precipitation, wind, and more.
+
+Decision-Making:
+Definition: The process of making choices or selecting a course of action from various available options, based on the information and insights provided by the application.
+
+Adverse Weather Conditions:
+Definition: Extreme or potentially dangerous weather situations, such as storms, heavy rainfall, or extreme temperatures.
+
+User-Friendly Interface:
+Definition: An interface designed to be easy to use and understand, ensuring a positive and effortless user experience.
+
+Precipitation Patterns:
+Definition: The distribution, frequency, and type of precipitation in a given area, including rain, snow, sleet, or hail.
+
+Environmental Awareness:
+Definition: The understanding and knowledge of climate patterns, weather phenomena, and their impact on the environment.
+
+Community Collaboration:
+Definition: Involving users in providing observations, feedback, or data, creating a sense of community and mutual support in managing weather-related challenges.
+
+Quality of Life Improvement:
+Definition: Enhancing the overall well-being and convenience of users by helping them adapt to changing weather conditions effectively.
+
+Location-Specific:
+Definition: Providing weather information tailored to the user's specific geographical location, ensuring accuracy and relevance.
+
+Short-Term Forecast:
+Definition: Weather predictions and information for the immediate future, typically covering the next 24-48 hours.
+
+Current Conditions:
+Definition: Real-time information about the current weather conditions, including temperature, humidity, wind speed, and other relevant data.
+
+Hourly Forecasts:
+Definition: Predictions for weather conditions on an hourly basis, allowing users to plan activities throughout the day.
+
+Precipitation Alerts:
+Definition: Notifications that inform users when rain, snow, or other forms of precipitation are expected in their area.
+
+Severe Weather Warnings:
+Definition: Alerts and notifications for potentially dangerous weather conditions, such as thunderstorms or strong winds.
+
+Local Radar:
+Definition: Real-time radar images showing weather patterns in the user's vicinity, including the movement of rain, snow, and other weather events.
+
+Long-Term Forecast:
+Definition: Extended weather predictions covering a range of days, typically spanning a week or more.
+
+Seasonal Trends:
+Definition: Insights into long-term weather patterns and fluctuations, which can be valuable for activities like agriculture and event planning.
+
+Climate Data:
+Definition: Historical climate information and trends for a specific location, aiding in long-term planning and understanding local climate patterns.
+
+Custom Alerts:
+Definition: Personalized notifications that users can set for specific weather conditions to align with their preferences or requirements.
+
+Geographical Coverage:
+Definition: The extent to which the long-term forecast covers different geographical areas, allowing users to plan for various locations.
+
+User Profiles:
+Definition: Individual accounts or profiles for users that may include personalized settings, preferences, and historical data.
+
+Administrative Privileges:
+Definition: Rights or permissions granted to certain users to modify or customize software properties and settings.
+
+Simplified User Interaction:
+Definition: A user-friendly approach that minimizes the need for user registration, login, and customization, resulting in a straightforward user experience.
+
+Effortless User Experience:
+Definition: Providing users with a smooth, hassle-free, and convenient interaction with the application.
+
+Natural Resource Management:
+Definition: The sustainable utilization and conservation of natural resources like forests, water, and wildlife, often influenced by weather forecasts.
+
+Livable Cities:
+Definition: Urban areas that are designed to provide a high quality of life for their residents, often influenced by urban planning decisions guided by weather forecasts.
+
+Adaptation and Mitigation Strategies:
+Definition: Actions taken to adjust and reduce the negative impacts of climate change, with weather forecasts providing valuable information for these strategies.
+
+Early Warnings:
+Definition: Timely notifications that alert individuals and communities about potential hazards or adverse weather conditions.
+
+Data Visualization:
+Definition: The presentation of data in graphical or visual formats, making it easier for users to understand and interpret complex information.

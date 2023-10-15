@@ -176,6 +176,19 @@ Users have access to support channels to address any questions or concerns they 
 
 In summary, this weather application is designed to be a user's reliable companion for all things weather-related. Whether you're making everyday decisions or planning for special events, this application is a trusted source for accurate, customizable, and accessible weather information. With its focus on user experience and ongoing improvement, it offers a superior weather forecasting experience for all.
 
+## List of Requirements
+
+| Modul   | ID   | Name       | Description |
+| ------- | ---- | ---------- | ----------- |
+| System  | N1   | Web server | Host the app on the web |
+| System  | N2   | Network connectivity  | To fetch real-time weather data, we need internet connection|
+| System  | N3   | Geolocation Services  | The application should have access to geolocation services to determine a user's location automatically when requested |
+| Software| N4   | OS         | The application should run on any operating system  |
+| Software| N5   | API integration   | The application should integrate with reliable weather data APIs to fetch current and forecast data |
+| Data    | N6   | Meteorological Data Sources   | Partner with reputable meteorological data providers or government agencies to access accurate weather data |
+| Security| N7   | Data Encryption   | Encrypt sensitive user data and communication to safeguard against unauthorized access | 
+| Surface | N8   | Landing Page      | The web application is displayed on the landing page, so the user can see the informations quickly |
+
 ## System License
 
 The project is licensed under the MIT License. This license grants 

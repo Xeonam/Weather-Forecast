@@ -195,6 +195,35 @@ don't require individual profiles or user permissions management. This
 approach can be particularly advantageous in situations where speed and
 user-friendliness are of paramount importance.
 
+## Model of required business processes
+
+A weather forecast program is a cornerstone of our modern world, an unseen but ever-present force that extends its influence over countless facets of our lives. 
+Beyond simply informing us if we should bring an umbrella or sunscreen, it plays a crucial role in safety, economic stability, environmental preservation, and even our overall quality of life.
+
+In the realm of safety, weather forecasts stand as guardians against the forces of nature. They predict the arrival of hurricanes, tornadoes, and severe storms, allowing us to evacuate and prepare, potentially saving lives in the process. 
+These predictions are not just numbers on a screen; they are early warnings that can be the difference between life and death.
+
+For those working the earth, such as farmers, these forecasts are lifelines. They guide decisions about planting, harvesting, and irrigation, ensuring that crops thrive and food security is upheld. 
+Similarly, the transportation industry leans heavily on accurate weather forecasts to ensure passenger safety, maintain punctual schedules, and optimize their operations.
+
+The energy sector benefits as well, as forecasts enable efficient resource management, ensuring a steady power supply while reducing costs and environmental impact. Construction companies use these forecasts to schedule work, enhancing worker safety and saving time and resources. 
+Meanwhile, healthcare facilities turn to weather forecasts to prepare for weather-related injuries and illnesses, and even to staff adequately during heatwaves or cold snaps.
+
+Tourism, a sector dependent on outdoor activities and travel, thrives with the aid of weather forecasts, which guarantee the safety and enjoyment of their customers. 
+Retail businesses optimize their inventory and sales strategies with weather data, ultimately benefiting both their bottom line and the customer experience.
+
+In the financial sector, insurance companies rely on weather forecasts to assess and manage risks, ensuring that policyholders receive appropriate coverage and compensation. 
+Simultaneously, weather predictions aid in the monitoring of air and water quality, enabling the protection of the environment, and in the long-term, the fight against climate change through adaptation and mitigation strategies.
+
+Weather forecasts contribute to natural resource management, aiding in the conservation of forests, water resources, and wildlife. They guide urban planning decisions, improving infrastructure, traffic management, and emergency response strategies, ultimately fostering more livable cities. 
+These forecasts also support education, scientific research, and meteorological studies, providing insights into Earth's climate and weather systems.
+
+For individuals, weather forecasts make daily life more predictable and enjoyable. They allow us to plan outdoor activities, travel, and routines with confidence. Forecasts also empower us to take measures to protect our homes, families, and property during adverse conditions.
+
+In essence, a weather forecast program isn't just about predicting weather; it's about shaping and safeguarding our lives. 
+It fosters safety, boosts economic growth, ensures environmental preservation, and enhances our collective ability to adapt to a changing world. 
+It is a testament to human innovation and a critical tool that keeps us informed, safe, and well-prepared for whatever nature may throw our way.
+
 ## Standard scenario
 
 In the following, we describe the general procedure for running the software:

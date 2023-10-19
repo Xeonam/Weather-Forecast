@@ -1,3 +1,175 @@
+## Project Plan
+
+The foremost task in our project is to establish clear responsibilities 
+and roles within the team. Our project involves two key roles: the 
+Scrum Master and the Developers.
+
+### Role Descriptions:
+
+**Scrum Master:**
+A Scrum Master is a pivotal figure responsible for guiding a team using 
+Agile project management principles throughout the project's lifecycle. 
+The Scrum Master's primary responsibilities include:
+
+- Facilitating communication and collaboration between project 
+leadership and team members.
+- Ensuring that the project follows Agile methodologies, leading to a 
+successful outcome.
+
+**Developers:**
+Developers play a crucial role in designing, programming, building, 
+deploying, and maintaining the software. Their role encompasses a wide 
+range of responsibilities, including:
+
+- Designing, building, and implementing software solutions, employing a 
+diverse set of skills and tools.
+- Ensuring the functionality and reliability of software systems that 
+underpin networks and devices.
+
+### Team Members:
+
+Our team consists of highly skilled individuals who bring diverse 
+expertise to the project:
+
+- Richárd Poroszlay: Fulfilling the roles of Scrum Master and Developer.
+- Balázs Ádám Sidlóczki: Developer.
+- Lambert Attila Lipők: Developer.
+- Zoltán Tar: Developer.
+
+### Project Schedule:
+
+We have allocated a 3-week timeline to complete this project, with each 
+week dedicated to specific project phases:
+
+- **First Week: Functional and Requirement Specification Declaration:** 
+During this phase, we will define the functional requirements and 
+specifications of the project, establishing a clear understanding of 
+the project's scope and goals.
+
+- **Second Week: System Plan Declaration:** This week is designated for 
+the development and declaration of the system plan, outlining the 
+project's technical architecture, features, and functionalities.
+
+- **Third Week: Coding the Project:** The final week is dedicated to 
+coding and implementing the project, translating the specifications and 
+system plan into a functional weather forecast application.
+
+### Project Objectives:
+
+Our primary goal is to develop and present a fully functional weather 
+forecast application by the end of September. This application will be 
+designed to cater to a broad audience and will provide accurate, 
+real-time weather information to its users.
+
+### Project Scope:
+
+Our project's scope has evolved from the previous project frame to now 
+focus on the development of a weather forecast application. This 
+application will be designed with an emphasis on user-friendliness, 
+accuracy, and accessibility, making it a valuable resource for 
+individuals, businesses, and communities.
+
+In summary, our project plan outlines the structure, responsibilities, 
+and objectives of our endeavor to create a user-friendly weather 
+forecast application. Our dedicated team is committed to delivering a 
+reliable and informative solution to the public audience by the end of 
+Semester.
+
+### Physical Environment:
+
+The development of our weather forecast application will take place 
+within a specific physical environment. The technologies and tools we 
+anticipate using include:
+
+- **Python**: Python will serve as the primary programming language for 
+backend development and data processing.
+
+- **HTML and CSS**: HTML and CSS will be used to create the 
+application's user interface and ensure a visually appealing and 
+responsive design.
+
+- **JavaScript**: JavaScript will enhance the interactivity of the 
+application, enabling dynamic features and user engagement.
+
+- **APIs**: We will integrate various APIs to access real-time weather 
+data and enhance the application's functionality.
+
+- **Visual Studio Code**: Visual Studio Code will be our chosen code 
+editor for software development, providing a versatile and 
+user-friendly environment for our developers.
+
+- **Discord**: We will use Discord as a communication platform for team 
+members to collaborate, discuss project updates, and facilitate 
+real-time communication.
+
+- **Trello**: Trello will serve as our project management tool, 
+enabling us to track tasks, manage project progress, and assign 
+responsibilities efficiently.
+
+- **Database (Tentative)**: While we are currently uncertain about the 
+need for a database, we will assess whether it is necessary to store 
+and manage user data or application-related information.
+
+### API: Bridging the Gap for Real-Time Weather Information
+
+In the digital age, when the demand for accurate and real-time weather 
+information is higher than ever, Application Programming Interfaces 
+(APIs) play a crucial role in bridging the gap between users and the 
+most up-to-date meteorological data. Our project recognizes the pivotal 
+role of APIs in delivering comprehensive and accurate weather details, 
+and here's how it works and why it's vital:
+
+#### How It Works:
+
+The process of utilizing an API in our weather forecast application 
+involves several key steps:
+
+1. **Integration**: We will integrate the chosen API into our 
+application's codebase. This involves setting up the necessary 
+connections and defining how the application will communicate with the 
+API.
+
+2. **Data Request**: When a user requests weather information for a 
+specific location or query, the application sends a request to the API. 
+This request typically includes parameters such as location 
+coordinates, time frame, and the specific weather data required (e.g., 
+temperature, humidity, wind speed).
+
+3. **Data Retrieval**: The API receives the request and retrieves the 
+relevant weather data from its sources. These sources may include 
+meteorological agencies, weather stations, and satellite observations.
+
+4. **Data Transmission**: Once the API gathers the requested data, it 
+transmits the information back to our application. This data 
+transmission occurs in real-time or near real-time, ensuring the 
+information is current.
+
+5. **Data Presentation**: Our application takes the received data and 
+presents it to the user in a clear and user-friendly manner. This can 
+include visual representations like charts, graphs, or simple 
+text-based information.
+
+#### The Importance of API Integration:
+
+The integration of a suitable API is essential for our weather forecast 
+application for several reasons:
+
+- **Data Accuracy**: APIs ensure that our application receives accurate 
+and authoritative weather information, enhancing user trust and 
+reliability.
+
+- **Real-Time Updates**: Users can rely on the application to provide 
+timely updates, enabling them to make informed decisions based on the 
+most current data.
+
+In summary, the API's role in our weather forecast application is 
+paramount in delivering accurate, real-time, and user-friendly weather 
+details. It acts as the bridge that connects our application to 
+authoritative meteorological data sources, ensuring that users are 
+well-informed and prepared for whatever weather conditions come their 
+way.
+
+
 ## Purpose of the system
 
 In a world where the weather can be unpredictable, having a reliable guide to the elements is more important than ever. 

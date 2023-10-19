@@ -75,101 +75,6 @@ forecast application. Our dedicated team is committed to delivering a
 reliable and informative solution to the public audience by the end of 
 Semester.
 
-### Physical Environment:
-
-The development of our weather forecast application will take place 
-within a specific physical environment. The technologies and tools we 
-anticipate using include:
-
-- **Python**: Python will serve as the primary programming language for 
-backend development and data processing.
-
-- **HTML and CSS**: HTML and CSS will be used to create the 
-application's user interface and ensure a visually appealing and 
-responsive design.
-
-- **JavaScript**: JavaScript will enhance the interactivity of the 
-application, enabling dynamic features and user engagement.
-
-- **APIs**: We will integrate various APIs to access real-time weather 
-data and enhance the application's functionality.
-
-- **Visual Studio Code**: Visual Studio Code will be our chosen code 
-editor for software development, providing a versatile and 
-user-friendly environment for our developers.
-
-- **Discord**: We will use Discord as a communication platform for team 
-members to collaborate, discuss project updates, and facilitate 
-real-time communication.
-
-- **Trello**: Trello will serve as our project management tool, 
-enabling us to track tasks, manage project progress, and assign 
-responsibilities efficiently.
-
-- **Database (Tentative)**: While we are currently uncertain about the 
-need for a database, we will assess whether it is necessary to store 
-and manage user data or application-related information.
-
-### API: Bridging the Gap for Real-Time Weather Information
-
-In the digital age, when the demand for accurate and real-time weather 
-information is higher than ever, Application Programming Interfaces 
-(APIs) play a crucial role in bridging the gap between users and the 
-most up-to-date meteorological data. Our project recognizes the pivotal 
-role of APIs in delivering comprehensive and accurate weather details, 
-and here's how it works and why it's vital:
-
-#### How It Works:
-
-The process of utilizing an API in our weather forecast application 
-involves several key steps:
-
-1. **Integration**: We will integrate the chosen API into our 
-application's codebase. This involves setting up the necessary 
-connections and defining how the application will communicate with the 
-API.
-
-2. **Data Request**: When a user requests weather information for a 
-specific location or query, the application sends a request to the API. 
-This request typically includes parameters such as location 
-coordinates, time frame, and the specific weather data required (e.g., 
-temperature, humidity, wind speed).
-
-3. **Data Retrieval**: The API receives the request and retrieves the 
-relevant weather data from its sources. These sources may include 
-meteorological agencies, weather stations, and satellite observations.
-
-4. **Data Transmission**: Once the API gathers the requested data, it 
-transmits the information back to our application. This data 
-transmission occurs in real-time or near real-time, ensuring the 
-information is current.
-
-5. **Data Presentation**: Our application takes the received data and 
-presents it to the user in a clear and user-friendly manner. This can 
-include visual representations like charts, graphs, or simple 
-text-based information.
-
-#### The Importance of API Integration:
-
-The integration of a suitable API is essential for our weather forecast 
-application for several reasons:
-
-- **Data Accuracy**: APIs ensure that our application receives accurate 
-and authoritative weather information, enhancing user trust and 
-reliability.
-
-- **Real-Time Updates**: Users can rely on the application to provide 
-timely updates, enabling them to make informed decisions based on the 
-most current data.
-
-In summary, the API's role in our weather forecast application is 
-paramount in delivering accurate, real-time, and user-friendly weather 
-details. It acts as the bridge that connects our application to 
-authoritative meteorological data sources, ensuring that users are 
-well-informed and prepared for whatever weather conditions come their 
-way.
-
-
 ## Purpose of the system
 
 In a world where the weather can be unpredictable, having a reliable guide to the elements is more important than ever. 
@@ -253,6 +158,41 @@ In conclusion, this system serves as an indispensable tool for individuals, busi
 Its primary purpose is to empower you with accurate, real-time weather data, enabling you to make informed decisions, 
 protect your interests, and stay safe in the face of unpredictable weather conditions. It's your window to the skies, 
 providing clarity in an ever-changing world of weather.
+
+## Physical Environment:
+
+The development of our weather forecast application will take place 
+within a specific physical environment. The technologies and tools we 
+anticipate using include:
+
+- **Python**: Python will serve as the primary programming language for 
+backend development and data processing.
+
+- **HTML and CSS**: HTML and CSS will be used to create the 
+application's user interface and ensure a visually appealing and 
+responsive design.
+
+- **JavaScript**: JavaScript will enhance the interactivity of the 
+application, enabling dynamic features and user engagement.
+
+- **APIs**: We will integrate various APIs to access real-time weather 
+data and enhance the application's functionality.
+
+- **Visual Studio Code**: Visual Studio Code will be our chosen code 
+editor for software development, providing a versatile and 
+user-friendly environment for our developers.
+
+- **Discord**: We will use Discord as a communication platform for team 
+members to collaborate, discuss project updates, and facilitate 
+real-time communication.
+
+- **Trello**: Trello will serve as our project management tool, 
+enabling us to track tasks, manage project progress, and assign 
+responsibilities efficiently.
+
+- **Database (Tentative)**: While we are currently uncertain about the 
+need for a database, we will assess whether it is necessary to store 
+and manage user data or application-related information.
 
 ## Test plan
 

@@ -379,3 +379,84 @@ Adequate test resources.
 
 The Weather Forecast program Test Plan outlines the testing strategy and objectives for ensuring the quality of the application. Following this plan will help identify and rectify issues, ensuring a reliable and user-friendly weather application.
 (some paragraphs only apply to the dream system)
+
+## Implementation plan
+
+### WEB
+
+HTML - serves as a fundamental language in a web project, aiding in
+the structuring of web content.
+It enables web developers to design the layout, style, and interactivity
+of web pages, thereby enhancing the user experience.
+Its defines the elements and tags used to arrange text, images, links,
+and multimedia on web pages.
+HTML files form the foundation of web pages, and browsers use them to
+display content, allowing users to access it over the internet.
+
+CSS - In a web project, CSS is responsible for controlling the visual
+appearance and style.
+It defines attributes like colors, fonts, sizes, and layouts for web pages.
+CSS enables web developers to create a consistent look and feel across all webpages.
+CSS facilitates improving user experience and effortlessly formatting
+content on webpages.
+
+JavaSript - JavaScript is a programming language designed specifically for web
+development.In frontend development, JavaScript is the most important technology,
+providing numerous opportunities to make web pages interactive and dynamic. Let's
+look at some reasons why JavaScript is valuable in frontend development:
+
+- Interactivity: JavaScript allows interaction with users on web pages. Various
+event handlers, such as click or mouse movement events, can be used to engage
+users actively.
+
+- Dynamic Content: JavaScript enables the display of dynamic content on a webpage.
+This means that content can be updated asynchronously without the need to reload
+the entire page. For example, in chat applications, messages can update in real-time.
+
+- Improved User Experience: JavaScript helps enhance the user experience by allowing
+customization of web pages to meet users' needs. By adding animations, feedback, and
+other interactive elements, a better user experience can be created.
+
+- Data Handling: JavaScript can query and manage data from remote servers asynchronously.
+This allows dynamic data retrieval and real-time content updates.
+
+- Direct Browser Support: Most modern web browsers support JavaScript, making it an
+accessible and usable tool for developers for a wide range of users.
+
+- Ecosystem: JavaScript has an extensive ecosystem that includes various frameworks
+and libraries like React, Angular, and Vue.js. These frameworks make web application
+development and scaling easier.
+
+- Mobile Development: JavaScript can be used for mobile app development with
+frameworks like React Native, Ionic, and Cordova. This allows for code reuse between
+desktop browsers and mobile devices.
+
+- Search Engine Optimization (SEO): JavaScript can be used to make websites search
+engine-friendly by applying appropriate SEO techniques.
+
+JavaScript is thus an essential tool in modern web development, enabling developers
+to create interactive, dynamic, and user-friendly websites. Its constant evolution
+and widespread support make it indispensable in frontend development.
+
+### Backend
+
+Python - Python is a commonly used programming language in web projects,
+known for its versatility and ease of learning.
+With Python, you can develop web applications, websites, and server-side scripts.
+Popular frameworks like Flask make it easy to build web applications using Python.
+Its simplicity and versatility make Python a powerful tool for developing
+and maintaining web projects.
+
+Flask - Flask is a lightweight and micro web framework for building
+web applications in Python.
+It provides essential tools and libraries to create web-based projects
+quickly and efficiently.
+Flask is ideal for prototyping, building small to medium-sized web applications,
+and can be extended with various extensions and libraries as needed.
+
+MySQL - MySQL is an open-source relational database management system
+that plays a crucial role in web projects.
+It aids in efficiently storing, querying, and managing data for web
+applications and websites.
+MySQL offers a reliable and efficient database system, making it
+indispensable for modern web development.

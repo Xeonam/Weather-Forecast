@@ -380,6 +380,42 @@ Adequate test resources.
 The Weather Forecast program Test Plan outlines the testing strategy and objectives for ensuring the quality of the application. Following this plan will help identify and rectify issues, ensuring a reliable and user-friendly weather application.
 (some paragraphs only apply to the dream system)
 
+## Requirements
+
+### Functional requirements
+
+- operation in a web environment
+- Homepage
+- Short-term forecast:
+    The Short-Term Forecast section of our weather forecasting
+    application is designed to provide users with up-to-the-minute
+    weather predictions for the immediate future. This feature
+    offers a glimpse into what you can expect in the next few hours,
+    making it a valuable tool for planning your day and making
+    informed decisions.
+- Long-Term forecast:
+    The Long-Term Forecast section of our weather forecasting
+    application is dedicated to providing users with insights
+    into the weather conditions over an extended period. This
+    feature is designed to help users plan for the days, weeks,
+    and even months ahead, offering valuable information for
+    long-range decision-making.
+- Prediction:
+    In our code, we employ machine learning to predict the weather.
+    After collecting and preprocessing weather data, we select a machine
+    learning model that learns weather patterns and relationships within
+    the data. Using the trained model and current data, we forecast the
+    weather for the next day. We continuously assess these predictions by
+    comparing them to actual data, refining the model to enhance accuracy.
+    Such systems can be valuable in various domains and enable the creation
+    of more accurate weather forecasts.
+
+### Non-functional requirements
+
+- Clean design
+- User-friendly software
+- Good predictions
+
 ## Implementation plan
 
 ### WEB

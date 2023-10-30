@@ -159,6 +159,47 @@ Its primary purpose is to empower you with accurate, real-time weather data, ena
 protect your interests, and stay safe in the face of unpredictable weather conditions. It's your window to the skies, 
 providing clarity in an ever-changing world of weather.
 
+## Model of Business Processes
+
+### Data Acquisition and Processing
+
+- **Data Collection:**  The Weather Forecast web application relies on external weather data sources, 
+such as meteorological agencies, satellites, and weather sensors, 
+to obtain real-time and forecasted weather information.
+
+- **Data Integration:** Raw weather data is collected from multiple sources and integrated 
+into the application's database. This data includes temperature, precipitation, wind speed, humidity, 
+and other relevant meteorological parameters.
+
+- **Data Processing:** The application processes the collected data, performing calculations and 
+aggregations to generate accurate and detailed weather forecasts. 
+Various algorithms and models are employed to predict weather conditions.
+
+### User Interaction
+
+- **Location Selection:** Users can search for and select their preferred location or city to obtain weather 
+forecasts for their area. The application provides a user-friendly interface for location input.
+
+- **Viewing Weather Information:** Users can access current weather conditions, hourly and daily forecasts, 
+as well as historical weather data for their selected location. 
+The application displays this information through a user-friendly interface that includes graphs, charts, and textual descriptions.
+
+- **Customization:** Users can customize their weather experience by setting preferences, such as temperature units 
+(e.g., Celsius or Fahrenheit), language preferences, and notification settings.
+
+### Advertising and Monetization (if applicable)
+
+- **Advertising:** The application may display advertisements to generate revenue. 
+Advertisements are strategically placed within the user interface while ensuring a seamless user experience.
+
+### Data Security and Compliance
+
+- **Data Protection:** The application adheres to data protection regulations and security standards 
+to safeguard user data and ensure privacy.
+
+- **Compliance:** Compliance with relevant weather forecasting and data usage regulations is maintained. 
+This includes compliance with meteorological data licensing agreements and any legal requirements regarding weather information.
+
 ## Physical Environment:
 
 The development of our weather forecast application will take place 

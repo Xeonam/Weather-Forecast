@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather in European Cities</title>
+    <link rel="stylesheet" href="../static/europe.css" />
+  </head>
+  <body>
+    <h1>Weather in European Cities</h1>
+
+    <div class="parent">
+      <div class="div1">
+        <a href="https://en.wikipedia.org/wiki/Europe" target="_blank"
+          ><img
+            src="../static/images/europe.png"
+            alt="earth"
+            class="medium-image"
+        /></a>
+      </div>
+      <div class="div2">
+        <h2>
+          Stay updated with the latest weather conditions in various European
+          cities.
+        </h2>
+      </div>
+      <div class="div3">
+        <p>
+          Explore the current weather in European cities. Click on the city name
+          to learn more about it on Wikipedia.
+        </p>
+      </div>
+      <div class="div4">
+        <img src="../static/images/sun.png" alt="sun" class="small-image" />
+        <img
+          src="../static/images/clouds.png"
+          alt="europe"
+          class="small-image cloud"
+        />
+      </div>
+    </div>
+    <!--<a href="https://www.flaticon.com/free-icons/sun" title="sun icons">Sun icons created by Freepik - Flaticon</a>-->
+    <!--<a href="https://www.flaticon.com/free-icons/europe" title="europe icons">Europe icons created by Freepik - Flaticon</a> 
+    <a href="https://www.flaticon.com/free-icons/cloud" title="cloud icons">Cloud icons created by Freepik - Flaticon</a>-->
+    <div class="cities">
+      {% for city in european_weather %}
+      <div class="city">
+        <h2>
+          <a
+            href="https://en.wikipedia.org/wiki/{{ city.city }}"
+            target="_blank"
+            class="link"
+            >{{ city.city }}</a
+          >
+        </h2>
+        <p class="temperature">Temperature: {{ city.temp }}°C</p>
+        <p class="feels_like">Feels like: {{ city.feels_like }}°C</p>
+        <p class="description">Weather: {{ city.description }}</p>
+        <p class="humidity">humidity: {{ city.humidity }}%</p>
+        <p class="temp_max">Max. temperature: {{ city.temp_max }}°C</p>
+        <p class="temp_min">Min. temperature: {{ city.temp_min }}°C</p>
+      </div>
+      {% endfor %}
+    </div>
+    <a class="link" href="/">Return</a>
+  </body>
+</html>

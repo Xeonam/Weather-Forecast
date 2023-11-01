@@ -32,7 +32,7 @@ def get_weather():
             'temperature': data['main']['temp'],
             'description': data['weather'][0]['description']
         }
-        return jsonify(data)
+        return render_template('weather.html', city=city)
     else:
         return jsonify({'error': 'Nem sikerült lekérni az időjárási adatokat'}), 500
     

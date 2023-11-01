@@ -13,6 +13,10 @@ API_URL = "https://api.openweathermap.org/data/2.5/weather"
 # Alapértelmezett város, ha nincs megadva
 DEFAULT_CITY = "Budapest"
 
+@app.route('/', methods=['GET'])
+def main():
+    return render_template('main_menu.html')
+
 @app.route('/city_input', methods=['GET'])
 def city_input():
     return render_template('city_input.html')

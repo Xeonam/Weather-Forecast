@@ -1,37 +1,15 @@
-/* Apply styles to the form */
 form {
     text-align: center;
     margin: 20px;
 }
 
-/* Style the input elements */
-input[type="text"] {
-    width: 200px;
-    padding: 10px;
-    border: 1px solid #ccc;
-}
-
-input[type="submit"] {
-    padding: 10px 20px;
-    background-color: #3498db;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-/* Apply styles to the weather container */
 .weather {
     text-align: center;
     margin: 20px;
 }
 
-/* Style the weather data */
+
 .weather p {
     font-size: 18px;
     margin: 10px;
-}
-
-/* Style the weather icon */
-.weather img {
-    max-width: 100px;
 }

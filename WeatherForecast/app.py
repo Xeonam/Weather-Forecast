@@ -24,7 +24,7 @@ def get_weather():
     params = {
         'q': city,
         'appid': API_KEY,
-        'units': 'metric'  # Celsius-ban
+        'units': 'metric' 
     }
 
     response = requests.get(API_URL, params=params)
@@ -33,8 +33,16 @@ def get_weather():
         data = response.json()
         weather = {
             'city': data['name'],
+            'lat': data['coord']['lat'],
+            'lon': data['coord']['lon'],
             'temperature': data['main']['temp'],
-            'description': data['weather'][0]['description']
+            'temp_max': data['main']['temp_max'],
+            'temp_min': data['main']['temp_min'],
+            'humidity': data['main']['humidity'],
+            'feels_like': data['main']['feels_like'],
+            'description': data['weather'][0]['description'],
+            'deg': data['wind']['deg'],
+            'speed': data['wind']['speed']
         }
         return render_template('weather.html', weather=weather)
     else:

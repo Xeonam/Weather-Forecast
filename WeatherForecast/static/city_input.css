@@ -1,42 +1,70 @@
 body {
-    background-color: lightblue;
+    background: linear-gradient(135deg, #93A5CF, #E4EfE9);
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    overflow: hidden;
 }
 
-form {
+.container {
     text-align: center;
     margin: 0 auto;
-    max-width: 300px; 
+    max-width: 300px;
     padding: 20px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    animation: fadeIn 1s ease-in;
 }
 
-input[type="text"] {
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.city-input {
     width: 90%;
     padding: 10px;
     margin: 5px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 1px solid #537895; /* Cool border color */
+    border-radius: 25px; /* Rounded corners */
+    background: transparent; /* Transparent background */
+    color: #537895; /* Text color */
+    font-size: 16px; /* Text size */
+    outline: none; /* Remove focus outline */
+    transition: border 0.3s ease-in-out;
 }
 
-input[type="submit"] {
+.city-input::placeholder {
+    color: #537895; /* Placeholder text color */
+    opacity: 0.7; /* Placeholder opacity */
+}
+
+.city-input:focus {
+    border: 2px solid #09203F; /* Change border color on focus */
+}
+
+.get-weather-button {
     width: 100%;
-    background-color: #4CAF50;
+    background: linear-gradient(135deg, #537895, #09203F);
     color: white;
     padding: 10px 15px;
     border: none;
-    border-radius: 4px;
+    border-radius: 25px; /* Rounded corners */
     cursor: pointer;
     font-weight: bold;
+    transition: background 0.3s ease-in-out;
 }
 
-input[type="submit"]:hover {
-    background-color: #45a049;
+.get-weather-button:hover {
+    background: linear-gradient(135deg, #09203F, #537895);
 }

@@ -1,15 +1,77 @@
-form {
-    text-align: center;
-    margin: 20px;
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #93A5CF, #E4EfE9);
+    background-size: 100% 200%;
+    animation: background-slide 10s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
-.weather {
+.container {
+    max-width: 900px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
     text-align: center;
-    margin: 20px;
+    animation: fadeIn 1s ease-in;
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
-.weather p {
-    font-size: 18px;
-    margin: 10px;
+.city {
+    margin: 20px 0;
+}
+
+.city-name {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+.coordinates {
+    margin: 20px 0;
+}
+
+.coordinates h2 {
+    color: #333;
+}
+
+.value {
+    font-weight: bold;
+}
+
+.weather-info, .wind-info {
+    margin: 20px 0;
+    border-top: 2px solid #333;
+    padding-top: 20px;
+}
+
+.coordinates h2, .weather-info h2, .wind-info h2 {
+    color: #333;
+}
+
+.weather-info p, .wind-info p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.weather-info p {
+    color: #333;
+}
+
+.wind-info p {
+    color: #333;
 }

@@ -3,14 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather</title>
+    <title>Weather Report</title>
     <link rel="stylesheet" href="../static/weather.css">
 </head>
 <body>
-    <div class="weather">
-        <p>City: {{ weather.city }}</p>
-        <p>Temperature: {{ weather.temperature }}°C</p>
-        <p>Description: {{ weather.description }}</p>
+    <div class="container">
+        <div class="city">
+            <h1>City: <span class="city_name">{{ weather.city }}</span></h1>
+        </div>
+        <div class="coordinates">
+            <h2>Coordinates</h2>
+            <p>Latitude: <span class="value">{{ weather.lat }} °</span></p>
+            <p>Longitude: <span class="value">{{ weather.lon }} °</span></p>
+        </div>
+        <div class="weather-info">
+            <h2>Weather Information</h2>
+            <p>Temperature: <span class="value">{{ weather.temperature }} °C</span></p>
+            <p>Max. Temperature: <span class="value">{{ weather.temp_max }} °C</span></p>
+            <p>Min. Temperature: <span class="value">{{ weather.temp_min }} °C</span></p>
+            <p>Temperature sensation: <span class="value">{{ weather.feels_like }} °C</span></p>
+            <p>Humidity: <span class="value">{{ weather.humidity }} %</span></p>
+            <p>Description: <span class="value">{{ weather.description }}</span></p>
+        </div>
+        <div class="wind-info">
+            <h2>Wind Information</h2>
+            <p>Degree: <span class="value">{{ weather.deg }} °</span></p>
+            <p>Speed: <span class="value">{{ weather.speed }} km/h</span></p>
+        </div>
     </div>
 </body>
 </html>

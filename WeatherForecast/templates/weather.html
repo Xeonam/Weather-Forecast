@@ -1,27 +1,29 @@
-{% extends 'index.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="../static/weather.css">
+</head>
+<body style="background-color: lightblue;">
+    <div style="margin-left: auto; margin-right: auto; width: fit-content;">
+        <form action="/" method="POST">
+            <input type="text" name="variable">
+            <input type="submit">
+        </form>
+    </div>
 
-{% block head %}
-<title>Weather</title>
-<link rel="stylesheet" href="../static/weather.css">
-{% endblock %}
-
-{% block body %}
-<div style="margin-left: auto; margin-right: auto; width: fit-content;">
-    <form action= '/' method= 'POST' >
-        <input type="text" name="variable">
-        <input type="submit">
-    </form>
-</div>
-
-{%if submission_successful%}
-    <div class='weather' style="margin-left: auto; margin-right: auto; width: fit-content;">
-        {% for key,value in conditions.items() %}
-        {% if key == "icon"%}
-            <img src={{icon}}>
-        {%else%}
-            <p>{{value}}</p>
+    {% if submission_successful %}
+    <div class="weather" style="margin-left: auto; margin-right: auto; width: fit-content;">
+        {% for key, value in conditions.items() %}
+        {% if key == "icon" %}
+        <img src="{{ icon }}">
+        {% else %}
+        <p>{{ value }}</p>
         {% endif %}
         {% endfor %}
     </div>
-{%endif%}
-{% endblock %}
+    {% endif %}
+</body>
+</html>

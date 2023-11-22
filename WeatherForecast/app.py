@@ -83,16 +83,18 @@ def get_weather():
 @app.route("/europe")
 def get_european_weather():
     name = "European"
+    wikipedia = "Europe"
     european_cities = ["Paris", "London", "Berlin", "Madrid", "Rome", "Athens", "Budapest", "Debrecen"]
     weather_list = get_weather_data(european_cities)
-    return render_template('weather_forecast.html', name=name, weather=weather_list)
+    return render_template('weather_forecast.html', name=name, weather=weather_list, wikipedia=wikipedia)
 
 @app.route("/america")
 def get_american_weather():
     name = "American"
-    american_cities = ["New York", "Los Angeles", "Chicago", "Houston", "Phoenix", "Philadelphia", "San Antonio", "San Francisco"]
+    wikipedia = "North_America"
+    american_cities = ["New York", "Los Angeles", "Chicago", "Houston", "Phoenix", "Ottawa", "San Antonio", "San Francisco"]
     weather_list = get_weather_data(american_cities)
-    return render_template('weather_forecast.html', name=name, weather=weather_list)
+    return render_template('weather_forecast.html', name=name, weather=weather_list, wikipedia=wikipedia)
 
 if __name__ == '__main__':
     app.run(debug=True)

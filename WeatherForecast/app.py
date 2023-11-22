@@ -86,7 +86,35 @@ def get_european_weather():
 
 @app.route("/america")
 def get_american_weather():
-    return "America"
+    american_cities = ["New York", "Los Angeles", "Chicago", "Houston", "Phoenix", "Philadelphia", "San Antonio", "San Francisco"]
+
+
+    weather_list = []
+
+    for city in american_cities:
+        params = {
+            'q': city,
+            'appid': API_KEY,
+            'units': 'metric'
+        }
+        response = requests.get(API_URL, params=params)
+
+        if response.status_code == 200:
+            data = response.json()
+            weather = {
+                'city': data['name'],
+                'temp': data['main']['temp'],
+                'feels_like': data['main']['feels_like'],
+                'humidity': data['main']['humidity'],
+                'temp_max': data['main']['temp_max'],
+                'temp_min': data['main']['temp_min'],
+                'description': data['weather'][0]['description']
+            }
+            
+            weather_list.append(weather)
+
+        
+    return render_template('europe.html', weather=weather_list)
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -57,7 +57,7 @@ def get_weather():
 def get_european_weather():
     european_cities = ["Paris", "London", "Berlin", "Madrid", "Rome", "Athens", "Budapest", "Debrecen"]
 
-    european_weather = []
+    weather_list = []
 
     for city in european_cities:
         params = {
@@ -79,10 +79,10 @@ def get_european_weather():
                 'description': data['weather'][0]['description']
             }
             
-            european_weather.append(weather)
+            weather_list.append(weather)
 
         
-    return render_template('europe.html', european_weather=european_weather)
+    return render_template('europe.html', weather=weather_list)
 
 if __name__ == '__main__':
     app.run(debug=True)

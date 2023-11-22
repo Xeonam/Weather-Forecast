@@ -82,7 +82,7 @@ def get_european_weather():
             weather_list.append(weather)
 
         
-    return render_template('europe.html', weather=weather_list)
+    return render_template('weather_forecast.html', weather=weather_list)
 
 @app.route("/america")
 def get_american_weather():
@@ -114,7 +114,7 @@ def get_american_weather():
             weather_list.append(weather)
 
         
-    return render_template('europe.html', weather=weather_list)
+    return render_template('weather_forecast.html', weather=weather_list)
 
 if __name__ == '__main__':
     app.run(debug=True)

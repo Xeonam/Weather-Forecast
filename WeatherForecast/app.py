@@ -84,5 +84,9 @@ def get_european_weather():
         
     return render_template('europe.html', weather=weather_list)
 
+@app.route("/america")
+def get_american_weather():
+    return "America"
+
 if __name__ == '__main__':
     app.run(debug=True)

@@ -13,6 +13,33 @@ API_URL = "https://api.openweathermap.org/data/2.5/weather"
 # Alapértelmezett város, ha nincs megadva
 DEFAULT_CITY = "Budapest"
 
+def get_weather_data(cities):
+    weather_list = []
+
+    for city in cities:
+        params = {
+            'q': city,
+            'appid': API_KEY,
+            'units': 'metric'
+        }
+        response = requests.get(API_URL, params=params)
+
+        if response.status_code == 200:
+            data = response.json()
+            weather = {
+                'city': data['name'],
+                'temp': data['main']['temp'],
+                'feels_like': data['main']['feels_like'],
+                'humidity': data['main']['humidity'],
+                'temp_max': data['main']['temp_max'],
+                'temp_min': data['main']['temp_min'],
+                'description': data['weather'][0]['description']
+            }
+
+            weather_list.append(weather)
+
+    return weather_list
+
 @app.route('/', methods=['GET'])
 def main():
     return render_template('main_menu.html')

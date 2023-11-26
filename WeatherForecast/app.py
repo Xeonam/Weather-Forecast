@@ -96,5 +96,14 @@ def get_american_weather():
     weather_list = get_weather_data(american_cities)
     return render_template('weather_forecast.html', name=name, weather=weather_list, wikipedia=wikipedia)
 
+@app.route("/asia")
+def get_asian_weather():
+    name = "Asian"
+    wikipedia = "Asia"
+    asian_cities = ["Bangkok", "Tokyo", "Jakarta", "Hanoi", "Peking", "Hongkong", "Manila", "Shanghai"]
+    weather_list = get_weather_data(asian_cities)
+    return render_template('weather_forecast.html', name=name, weather=weather_list, wikipedia=wikipedia)
+
+
 if __name__ == '__main__':
     app.run(debug=True)

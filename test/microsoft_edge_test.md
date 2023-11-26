@@ -4,7 +4,7 @@ Tester: Lipők Lambert Attila
 
 | Test Case | Step | Description | Status | Expected Result | Actual |
 |------------| ----- | ------ | ------- | ------------- | ------ |
-| Appearance | 1.    | Display of menu | passed | The menu is correctly displayed in Google Chrome browser |  The menu is correctly displayed in Google Chrome browser|
+| Appearance | 1.    | Display of menu | passed | The menu is correctly displayed in Microsoft Edge browser |  The menu is correctly displayed in Microsoft Edge browser|
 | | 2.| City input | passed | The City input screen mode is correctly displayed | The City input screen mode is correctly displayed|
 | | 3.| European Cities | passed | The European Cities screen is correctly displayed | The European Cities screen is correctly displayed|
 | | 4.| City | passed | The City screen is correctly displayed | The City screen is correctly displayed|

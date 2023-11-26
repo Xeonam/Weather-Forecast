@@ -95,11 +95,16 @@ body {
 }
 
 .top-left {
-    top: 55px;
-    left: 55px;
+    top: 65px;
+    left: 65px;
 }
 
 .top-right {
-    top: 55px;
-    right: 55px;
+    top: 65px;
+    right: 65px;
+}
+
+.bottom-left {
+    bottom: 65px;
+    left: 65px;
 }

@@ -108,3 +108,8 @@ body {
     bottom: 65px;
     left: 65px;
 }
+
+.bottom-right {
+    bottom: 65px;
+    right: 65px;
+}

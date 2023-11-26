@@ -68,3 +68,42 @@ body {
 .get-weather-button:hover {
     background: linear-gradient(135deg, #09203F, #537895);
 }
+
+.image-container {
+    text-align: center;
+    position: absolute;
+    bottom: 0; 
+}
+
+.image-container img {
+    max-width: 200px;
+    border-radius: 10px; 
+    margin-bottom: 20px;
+}
+
+.right {
+    top: 40%;
+    right: 80px;
+    transform: translateX(0);
+}
+
+.left {
+    top: 40%;
+    left: 80px;
+    transform: translateX(0);
+}
+
+.page-description-container {
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.page-description {
+    font-size: 64px;
+    color: #09203F;
+    margin: 0;
+}

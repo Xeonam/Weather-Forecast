@@ -7,11 +7,27 @@
     <link rel="stylesheet" type="text/css" href="../static/city_input.css">
 </head>
 <body>
+    <div class="page-description-container">
+        <p class="page-description">Choose a city from across the globe</p>
+    </div>
+
     <div class="container">
         <form action="/weather" method="GET" class="city-form">
             <input type="text" name="city" placeholder="Enter a city name" class="city-input">
             <input type="submit" value="Get Weather" class="get-weather-button">
         </form>
+    </div>
+
+    <div class="image-container left">
+        <img src="static/images/globe-america.png" alt="America Image">
+    </div>
+
+    <div class="image-container">
+        <img src="static/images/globe-europe.png" alt="Europe globe">
+    </div>
+
+    <div class="image-container right">
+        <img src="static/images/globe-asia.png" alt="Asia Image">
     </div>
 </body>
 </html>
